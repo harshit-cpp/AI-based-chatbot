@@ -1,0 +1,37 @@
+This repository contains code for a chatbot implemented using OpenAI's GPT-3 model. The chatbot is designed to respond to user input and engage in conversation.
+
+## Prerequisites
+
+To run this code, you need to have the following:
+
+- Python 3.x
+- OpenAI Python library
+
+## Installation
+
+1. Clone this repository to your local machine.
+2. Install the required dependencies by running the following command:
+3. Enter your messages in the terminal and the chatbot will respond accordingly.
+
+## Configuration
+
+To use the OpenAI GPT-3 model, you need to set your OpenAI API key. Follow these steps:
+
+1. Sign up for an account on the OpenAI website.
+2. Generate an API key.
+3. Set the API key in the `openai.api_key` variable in the `chatbot.py` file.
+
+## Contributing
+
+Contributions are welcome! If you find any issues or have suggestions for improvement, please open an issue or submit a pull request.
+
+## License
+
+This code is licensed under the MIT License. See the `LICENSE` file for more details.
+"""
+
+# Write README file
+with open("README.md", "w") as readme_file:
+    readme_file.write(readme_content)
+
+print("README file generated successfully!")
